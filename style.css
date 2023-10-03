@@ -1,0 +1,122 @@
+/* Reset some default styles */
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling for the header */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Add more styles for your content as needed */
+/* Set background color for the header */
+header {
+    background-color: #ffcccb; /* This is a light pink color; you can change it to your preferred color */
+    color: #333; /* Text color */
+}
+
+/* Customize links */
+nav ul li a {
+    color: #009688; /* Change this color to your preferred link color */
+}
+/* Set a background image */
+body {
+    background-image: url('image2.jpg');
+    background-size: cover;
+}
+/* Style the About Me section */
+#about {
+    background-color: #f7f7f7; /* Light gray background color */
+    padding: 20px; /* Add some padding for space */
+    border-radius: 10px; /* Add rounded corners for a visual highlight */
+}
+
+/* Style the heading within the About Me section */
+#about h2 {
+    color: #009688; /* Different text color for the heading */
+}
+/* CSS for the slide-in animation */
+@keyframes slide-in {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+/* Apply the animation to specific elements */
+#about {
+    animation: slide-in 1s ease-in-out; /* Apply the slide-in animation */
+}
+/* CSS for styling the download link */
+a.download-link {
+    background-color: #009688;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+a.download-link:hover {
+    background-color: #ff00cc;
+}
+/* Styles for the Skills section */
+#skills {
+    margin-top: 20px;
+}
+
+/* Styles for each skill item */
+ul li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+/* Style the skill name */
+.skill-name {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Style the skill progress bar container */
+.skill-bar {
+    width: 100%;
+    background-color: #f0f0f0; /* Background color for the progress bar */
+    height: 20px;
+    border-radius: 10px; /* Rounded corners for the bar */
+    position: relative;
+}
+
+/* Style the skill progress bar itself */
+.skill-progress {
+    height: 100%;
+    line-height: 20px;
+    text-align: center;
+    color: #fff; /* Text color for the percentage */
+    border-radius: 10px; /* Rounded corners for the filled portion of the bar */
+    background-color: #009688; /* Color for the filled portion of the bar */
+}
